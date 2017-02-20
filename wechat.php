@@ -2,9 +2,9 @@
 /**
  * @类名称: Wechat
  * @类描述: todo(微信公众平台php开发包,细化各项接口操作,支持链式调用)
- * @创建人: xiaoxie   
+ * @创建人: xiaomumu   
  * @创建时间: 2014-12-29 下午6:55:18
- * @修改人: xiaoxie   
+ * @修改人: xiaomumu   
  * @修改时间: 2014-12-29 下午6:55:18
  * @修改备注: 
  * @version 1.0
@@ -147,8 +147,8 @@ class Wechat
 	{
 		$options = array (
 		       'appid' => APPID,
-				'appsecret' => APPSERCERT,
-				'token' => APPTOKEN
+			'appsecret' => APPSERCERT,
+			'token' => APPTOKEN
 		);
 		
 		$this->token = isset($options['token'])?$options['token']:'';
